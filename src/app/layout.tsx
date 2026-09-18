@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     siteName: "Mon Habitation Assuré",
   },
+  verification: {
+    google: "NCbWw-cT9o8nVU1YmuabBESQoun6mCQRfiAx7XHDaGM",
+  },
 };
 
 const OPENING_HOURS = [
