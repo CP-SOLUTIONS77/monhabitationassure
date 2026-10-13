@@ -142,6 +142,10 @@ export function SimulateurHabitation() {
   const [p, setP] = useState<HomeProfile>(DEFAULT_PROFILE);
   const [state, formAction] = useActionState(submitProfileLead, initialState);
 
+  useEffect(() => {
+    if (state.status === "success") track("generate_lead", { lead_source: "simulateur" });
+  }, [state.status]);
+
   const set = <K extends keyof HomeProfile>(key: K) => (value: HomeProfile[K]) =>
     setP((prev) => ({ ...prev, [key]: value }));
 
