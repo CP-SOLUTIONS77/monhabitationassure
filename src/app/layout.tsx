@@ -93,6 +93,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${poppins.variable} ${questrial.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-neutral-0 text-neutral-900 font-body">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MFKLTG5HZ7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MFKLTG5HZ7');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
