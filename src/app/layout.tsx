@@ -19,7 +19,7 @@ const questrial = Questrial({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://monhabitationassure.fr"),
+  metadataBase: new URL("https://www.monhabitationassure.fr"),
   title: {
     default: "Assurance habitation | Mon Habitation Assuré",
     template: "%s | Mon Habitation Assuré",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 
 const OPENING_HOURS = [
   { "@type": "OpeningHoursSpecification", dayOfWeek: "Monday", opens: "09:30", closes: "12:30" },
-  { "@type": "OpeningHoursSpecification", dayOfWeek: "Monday", opens: "14:30", closes: "16:30" },
+  { "@type": "OpeningHoursSpecification", dayOfWeek: "Monday", opens: "13:30", closes: "16:30" },
   {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -62,12 +62,12 @@ const JSON_LD = {
   "@context": "https://schema.org",
   "@type": "Service",
   serviceType: "Assurance habitation",
-  url: "https://monhabitationassure.fr",
+  url: "https://www.monhabitationassure.fr",
   areaServed: "FR",
   provider: {
     "@type": "InsuranceAgency",
     name: "CP Solutions",
-    image: "https://monhabitationassure.fr/photos/logo.png",
+    image: "https://www.monhabitationassure.fr/photos/logo.png",
     telephone: "+33164248345",
     url: "https://cpsolutions77.com",
     address: {

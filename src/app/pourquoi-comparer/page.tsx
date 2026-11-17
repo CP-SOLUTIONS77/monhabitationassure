@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Pourquoi comparer son assurance habitation",
   description:
     "Vous pouvez changer d'assurance habitation à tout moment après un an de contrat (loi Hamon). Un courtier indépendant compare plusieurs assureurs pour votre profil.",
+  alternates: { canonical: "/pourquoi-comparer" },
 };
 
 export default function PourquoiComparerPage() {
