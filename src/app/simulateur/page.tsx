@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Étudier mon profil habitation",
   description:
     "Décrivez votre logement pour savoir si nous avons une solution adaptée, sans engagement.",
+  alternates: { canonical: "/simulateur" },
 };
 
 export default function SimulateurPage() {

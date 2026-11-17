@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://monhabitationassure.fr/sitemap.xml",
+    sitemap: "https://www.monhabitationassure.fr/sitemap.xml",
   };
 }
