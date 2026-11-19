@@ -4,18 +4,18 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Comment ça marche",
   description:
-    "Les étapes pour comparer ou changer d'assurance habitation : profil, étude d'éligibilité, comparaison, résiliation, prise d'effet.",
+    "Les étapes pour comparer ou changer d'assurance habitation : demande en six questions, comparaison, offre chiffrée, résiliation, prise d'effet.",
   alternates: { canonical: "/comment-ca-marche" },
 };
 
 const STEPS = [
   {
-    title: "1. Vous décrivez votre logement en ligne",
-    text: "Type de logement, surface, mobilier, équipements de sécurité : le formulaire prend quelques minutes. Cet échange ne vous engage à rien.",
+    title: "1. Vous faites votre demande en ligne",
+    text: "Type de logement, surface, valeur du mobilier : six questions, moins d'une minute. Vous pouvez aussi demander à être rappelé. Cet échange ne vous engage à rien.",
   },
   {
-    title: "2. Nous confirmons l'éligibilité de votre profil",
-    text: "Votre profil est étudié face à nos assureurs partenaires. Vous savez immédiatement si nous avons une solution pour vous.",
+    title: "2. Un conseiller étudie votre demande",
+    text: "Votre demande est étudiée par un conseiller CP Solutions, qui identifie les assureurs partenaires adaptés à votre logement et à votre situation.",
   },
   {
     title: "3. La comparaison entre plusieurs assureurs",
@@ -67,7 +67,7 @@ export default function CommentCaMarchePage() {
         href="/simulateur"
         className="mt-8 inline-block rounded-full bg-orange px-6 py-3 font-heading font-semibold text-white transition hover:brightness-95"
       >
-        Étudier mon profil
+        Obtenir mon devis habitation
       </Link>
     </div>
   );

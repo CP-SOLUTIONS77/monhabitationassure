@@ -25,18 +25,18 @@ const BENEFITS = [
 const STEPS = [
   {
     step: "1",
-    title: "Vous décrivez votre logement",
-    text: "Type de logement, surface, mobilier, équipements : quelques minutes suffisent pour un dossier complet.",
+    title: "Vous répondez à six questions",
+    text: "Type de logement, surface, valeur du mobilier : moins d'une minute suffit.",
   },
   {
     step: "2",
-    title: "On confirme si nous avons une solution",
-    text: "Votre profil est étudié face à nos assureurs partenaires : réponse immédiate sur son éligibilité.",
+    title: "On compare plusieurs assureurs",
+    text: "En tant que courtier indépendant, on interroge nos compagnies partenaires pour votre logement.",
   },
   {
     step: "3",
-    title: "Un conseiller affine l'étude",
-    text: "En tant que courtier indépendant, on interroge plusieurs compagnies et on vous transmet une offre chiffrée.",
+    title: "Vous recevez une offre chiffrée",
+    text: "Un conseiller vous recontacte avec une proposition claire, que vous êtes libre d'accepter ou non.",
   },
   {
     step: "4",
@@ -68,7 +68,7 @@ export default function HomePage() {
                 href="/simulateur"
                 className="rounded-full bg-orange px-6 py-3 font-heading font-semibold text-white shadow-sm transition hover:brightness-95"
               >
-                Étudier mon profil
+                Obtenir mon devis habitation
               </Link>
               <a
                 href="tel:+33164248345"
@@ -159,7 +159,7 @@ export default function HomePage() {
             href="/simulateur"
             className="rounded-full bg-orange px-6 py-3 font-heading font-semibold text-white transition hover:brightness-95"
           >
-            Étudier mon profil
+            Obtenir mon devis habitation
           </Link>
         </div>
       </section>

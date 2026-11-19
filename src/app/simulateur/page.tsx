@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { SimulateurHabitation } from "@/components/SimulateurHabitation";
 
 export const metadata: Metadata = {
-  title: "Étudier mon profil habitation",
+  title: "Devis assurance habitation",
   description:
-    "Décrivez votre logement pour savoir si nous avons une solution adaptée, sans engagement.",
+    "Obtenez un devis d'assurance habitation en six questions : un courtier indépendant compare plusieurs assureurs pour votre logement. Gratuit et sans engagement.",
   alternates: { canonical: "/simulateur" },
 };
 
